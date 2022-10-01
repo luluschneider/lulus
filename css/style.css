@@ -1,3 +1,47 @@
-body{
+/* body{
     background-color: blueviolet;
+} */
+ 
+
+h1{ 
+  font-family:inherit;
+  color: purple;
+  font-size: 300px;
+  text-align: center;
 }
+
+button{
+  border: none;
+  background-color: rgb(213, 136, 184);
+  padding: 15px 32px;
+  text-align:right;
+  font-size: 20;
+  margin: 4px 2px;
+}  
+
+
+
+.cls-1 {
+    isolation: isolate;
+  }
+
+  .cls-2 {
+    opacity: 0.56;
+  }
+
+  .cls-2, .cls-4 {
+    mix-blend-mode: multiply;
+  }
+
+  .cls-3 {
+    opacity: 0.55;
+    mix-blend-mode: darken;
+  }
+
+  .cls-5 {
+    opacity: 0.97;
+  }
+
+ #baseImage{
+  width: 100vw;
+ }
