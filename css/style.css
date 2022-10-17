@@ -3,12 +3,13 @@
 } */
  
 
-h1{ 
-  font-family:inherit;
+#titleHeader{ 
+  font-family: wordUp;
   color: purple;
   font-size: 200px;
-  margin-left: 1000px;
   text-align: center;
+  display: block;
+  margin: auto;
 }
 
 button{
