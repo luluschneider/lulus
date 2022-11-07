@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!--the head is where u can edit or link 'sources' to ur index.html (href)
+its similar to an anchor path except that its the computer using that path to apply the file to this one-->
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
   <title>LUTOPIA!</title>
-
   <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
   <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
@@ -16,122 +18,87 @@
   <meta name="theme-color" content="#ffffff">
 </head>
 
+<!--the body is for editing the contents of the page so everything you want to see in the browser goes in between the opening and closing tags-->
+
 <body>
-  <h1 id="titleHeader">LUTOPIA!</h1>
+  <div class="titleHeader">
+    <h1>LUTOPIA!</h1>
+  </div>
 
-  <style>
-    @font-face {
-      src: url("font/lutopiaFont/crystalradiokit.ttf");
-      font-family: wordUp;
-    }
+  <div class="About">
+    <button type="button">About!</button>
+  </div>
 
-    h1 {
-      font-family: wordUp;
-    }
-  </style>
-
-<div id="#About">
-  <button type="button">About!</button>
-</div>
-
-
-<!--<div id="rightArrow">
+  <!--<div id="rightArrow">
     <img src="">
   </div>-->
 
+  <!--SVG [for clarity]-->
 
-<svg id="baseImage" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-  viewBox="0 0 1099.64 824.73">
-  <defs>
-    <style>
-      #titleHeader {
-        position: absolute;
-        top: 0;
-        z-index: 1;
-      }
+  <svg id="baseImage" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    viewBox="0 0 1099.64 824.73">
 
-      #rightArrow {
-        position: absolute;
-        z-index: 1;
-        right: 0;
-        top: 50vh;
-
-        height: 20px;
-        width: 20px;
-      }
-
-      #About {
-        position: absolute;
-        top: 0;
-        z-index: 1;
-        font-size: 100px;
-      }
-    </style>
-
-
-
-  </defs>
-
-  <g class="cls-1">
-    <g id="Layer_17_Image" data-name="Layer 17 Image" class="cls-2">
-      <image id="Layer_17_Image-2" data-name="Layer 17 Image" width="4032" height="3024" transform="scale(0.27)"
-        xlink:href="luluBackgroundSVG1.png" />
-    </g>
-    <g id="Layer_16_Image" data-name="Layer 16 Image" class="cls-3">
-      <image id="Layer_16_Image-2" data-name="Layer 16 Image" width="4032" height="3024" transform="scale(0.27)"
-        xlink:href="luluBackgroundSVG2.png" />
-    </g>
-    <g id="Layer_9_Image" data-name="Layer 9 Image">
-      <image id="Layer_9_Image-2" data-name="Layer 9 Image" width="4032" height="3024" transform="scale(0.27)"
-        xlink:href="luluBackgroundSVG3.png" />
-    </g>
-    <g id="New_group" data-name="New group">
-      <g id="Layer_8_Image" data-name="Layer 8 Image" class="cls-4">
-        <image id="Layer_8_Image-2" data-name="Layer 8 Image" width="4032" height="3024" transform="scale(0.27)"
-          xlink:href="luluBackgroundSVG4.png" />
+    <g class="cls-1">
+      <g id="Layer_17_Image" data-name="Layer 17 Image" class="cls-2">
+        <image id="Layer_17_Image-2" data-name="Layer 17 Image" width="4032" height="3024" transform="scale(0.27)"
+          xlink:href="luluBackgroundSVG1.png" />
       </g>
-      <g id="Cat_Image" data-name="Cat Image">
-        <image id="Cat_Image-2" data-name="Cat Image" width="4032" height="3024" transform="scale(0.27)"
-          xlink:href="luluBackgroundSVG5.png" />
+      <g id="Layer_16_Image" data-name="Layer 16 Image" class="cls-3">
+        <image id="Layer_16_Image-2" data-name="Layer 16 Image" width="4032" height="3024" transform="scale(0.27)"
+          xlink:href="luluBackgroundSVG2.png" />
       </g>
-
-      <a href="">
-        <g id="Cat3_Image" data-name="Cat3 Image">
-          <image id="Cat3_Image-2" data-name="Cat3 Image" width="4032" height="3024" transform="scale(0.27)"
-            xlink:href="luluBackgroundSVG6.png" />
+      <g id="Layer_9_Image" data-name="Layer 9 Image">
+        <image id="Layer_9_Image-2" data-name="Layer 9 Image" width="4032" height="3024" transform="scale(0.27)"
+          xlink:href="luluBackgroundSVG3.png" />
+      </g>
+      <g id="New_group" data-name="New group">
+        <g id="Layer_8_Image" data-name="Layer 8 Image" class="cls-4">
+          <image id="Layer_8_Image-2" data-name="Layer 8 Image" width="4032" height="3024" transform="scale(0.27)"
+            xlink:href="luluBackgroundSVG4.png" />
         </g>
-      </a>
+        <g id="Cat_Image" data-name="Cat Image">
+          <image id="Cat_Image-2" data-name="Cat Image" width="4032" height="3024" transform="scale(0.27)"
+            xlink:href="luluBackgroundSVG5.png" />
+        </g>
 
-      <g id="Cat_2_Image" data-name="Cat 2 Image">
-        <image id="Cat_2_Image-2" data-name="Cat 2 Image" width="4032" height="3024" transform="scale(0.27)"
-          xlink:href="luluBackgroundSVG7.png" />
-      </g>
-    </g>
-    <g id="Layer_3_Image" data-name="Layer 3 Image" class="cls-5">
-      <image id="Layer_3_Image-2" data-name="Layer 3 Image" width="4032" height="3024" transform="scale(0.27)"
-        xlink:href="luluBackgroundSVG8.png" />
-    </g>
-    <g id="RADIO">
-      <g id="Layer_18_Image" data-name="Layer 18 Image">
-        <image id="Layer_18_Image-2" data-name="Layer 18 Image" width="4032" height="3024" transform="scale(0.27)"
-          xlink:href="recordPlayer.png" />
-      </g>
-      <g id="Radio_Image" data-name="Radio Image">
-        <image id="Radio_Image-2" data-name="Radio Image" width="4032" height="3024" transform="scale(0.27)"
-          xlink:href="luluBackgroundSVG10.png" />
-      </g>
-    </g>
-    <g id="Layer_4_Image" data-name="Layer 4 Image">
-      <image id="Layer_4_Image-2" data-name="Layer 4 Image" width="4032" height="3024" transform="scale(0.27)"
-        xlink:href="luluBackgroundSVG11.png" />
-    </g>
-  </g>
-</svg>
+        <a href="">
+          <g id="Cat3_Image" data-name="Cat3 Image">
+            <image id="Cat3_Image-2" data-name="Cat3 Image" width="4032" height="3024" transform="scale(0.27)"
+              xlink:href="luluBackgroundSVG6.png" />
+          </g>
+        </a>
 
-<footer>
-  <div class="footer">by lulu schneider.....</div>
-</footer>
+        <g id="Cat_2_Image" data-name="Cat 2 Image">
+          <image id="Cat_2_Image-2" data-name="Cat 2 Image" width="4032" height="3024" transform="scale(0.27)"
+            xlink:href="luluBackgroundSVG7.png" />
+        </g>
+      </g>
+      <g id="Layer_3_Image" data-name="Layer 3 Image" class="cls-5">
+        <image id="Layer_3_Image-2" data-name="Layer 3 Image" width="4032" height="3024" transform="scale(0.27)"
+          xlink:href="luluBackgroundSVG8.png" />
+      </g>
+      <g id="RADIO">
+        <g id="Layer_18_Image" data-name="Layer 18 Image">
+          <image id="Layer_18_Image-2" data-name="Layer 18 Image" width="4032" height="3024" transform="scale(0.27)"
+            xlink:href="recordPlayer.png" />
+        </g>
+        <g id="Radio_Image" data-name="Radio Image">
+          <image id="Radio_Image-2" data-name="Radio Image" width="4032" height="3024" transform="scale(0.27)"
+            xlink:href="luluBackgroundSVG10.png" />
+        </g>
+      </g>
+      <g id="Layer_4_Image" data-name="Layer 4 Image">
+        <image id="Layer_4_Image-2" data-name="Layer 4 Image" width="4032" height="3024" transform="scale(0.27)"
+          xlink:href="luluBackgroundSVG11.png" />
+      </g>
+    </g>
+  </svg>
+
+<!--SVG end-->
+
+  <footer>
+    <div class="footer">by lulu schneider.....</div>
+  </footer>
 
 </body>
-
 </html>
