@@ -78,14 +78,6 @@ button {
   background-color: #ebebfa;
 }
 
-footer{
-  position:absolute;
- top: 1010px;
-  width:100vw;
-  text-align:center;
-  background-color: #FFE9F3;
-  text-decoration: none !important;
-}
 
 img{
   padding:8px;
@@ -105,4 +97,13 @@ body, html{
   margin: auto;
   padding: 0;
   z-index: 3;
+}
+
+.info {
+  font-family: monospace;
+  position: absolute;
+  line-height: 20px;
+  font-size: 14px;
+  left: 20px;
+  top: 20px;
 }
