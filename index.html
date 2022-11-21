@@ -6,24 +6,21 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
   <script src="js/lutopia.js"></script>
+  <link rel="stylesheet" href="css/style.css">
   <title>LUTOPIA!</title>
   <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
   <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
-  <link rel="manifest" href="./site.webmanifest">
+  <!-- <link rel="manifest" href="./site.webmanifest"> -->
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
 </head>
 
 
-<body>
+<body translate="no">
 
-  <div class="info">
-    <b><a href="https://github.com/tholman/90s-cursor-effects" target="_blank"></a></b><br>
-  
-  </div>
+
 
   <div class="titleHeader">
     <h1>LUTOPIA!</h1>
@@ -37,6 +34,10 @@
     </style>
   </div>
 
+  <div class="info">
+    <b><a href="https://github.com/tholman/90s-cursor-effects" target="_blank"></a></b><br>
+ 
+  </div>
 
 
 
@@ -56,7 +57,7 @@
       <g id="New_group" data-name="New group">
         <g id="New_group-2" data-name="New group">
           <g id="Layer_8_Image" data-name="Layer 8 Image" class="cls-1">
-            <image id="Layer_8_Image-2" data-name="Layer 8 Image" width="4032" height="2248" transform="translate(0 134.18) scale(.27)" xlink:href="Lulu_Website_Back13.png"/>
+            <image id="Layer_8_Image-2" data-name="Layer 8 Image" width="4029" height="2240" transform="translate(0 134.18) scale(.27)" xlink:href="Lulu_Website_Back13.png"/>
           </g>
           <g id="Layer_17_Image" data-name="Layer 17 Image">
             <image id="Layer_17_Image-2" data-name="Layer 17 Image" width="4032" height="2665" transform="scale(.27)" xlink:href="Lulu_Website_Back14.png"/>
@@ -64,38 +65,80 @@
         </g>
       </g>
 
-
+<!-- radio -->
       <g id="New_group-3" data-name="New group">
         <g id="Radio_Image" data-name="Radio Image">
-          <image id="Radio_Image-2" data-name="Radio Image" width="672" height="304" transform="translate(137.45 439.36) scale(.27)" xlink:href="Lulu_Website_Back15.png"/>
+          <image id="Radio_Image-2" data-name="Radio Image" width="672" height="310" transform="translate(137.45 439.36) scale(.27)" href="Lulu_Website_Back15.png"
+          />
         </g>
       </g>
+     
+      <script>
+        var image = document.getElementById("Radio_Image-2");
+
+      image.onmouseover = function() {  image.setAttribute("href", "images/radioOutline.png");}
+      image.onmouseout = function() {  image.setAttribute("href", "Lulu_Website_Back15.png");}
+      
+      image.onmousedown = function() {  image.setAttribute("href", "images/radio.gif");}
+      image.onmouseup = function() {  image.setAttribute("href", "Lulu_Website_Back15.png");}
+      </script>
 
 
-
+<!-- cat 1-->
       <a href="catPage.html">
         <g id="Cat_1_Image" data-name="Cat 1 Image">
-          <image id="Cat_1_Image-2" data-name="Cat 1 Image" width="546" height="667" transform="translate(626.73 459.55) scale(.27)" xlink:href="Lulu_Website_Back16.png"/>
+          <image id="Cat_1_Image-2" data-name="Cat 1 Image" width="546" height="667" transform="translate(626.73 459.55) scale(.27)" href="Lulu_Website_Back16.png"/>
         </g>
     </a>
-  
+
+    <script>
+      var image = document.getElementById("Cat_1_Image");
+
+    image.onmouseover = function() {  image.setAttribute("href", "images/catOutline16.png");}
+    image.onmouseout = function() {  image.setAttribute("href", "Lulu_Website_Back16.png");}
+    </script>
+   
+  <!-- cat 2 -->
     <a href="catPage.html">
         <g id="Cat_2_Image" data-name="Cat 2 Image">
-          <image id="Cat_2_Image-2" data-name="Cat 2 Image" width="347" height="704" transform="translate(509.18 283.09) scale(.27)" xlink:href="Lulu_Website_Back17.png"/>
+          <image id="Cat_2_Image-2" data-name="Cat 2 Image" width="347" height="704" transform="translate(509.18 283.09) scale(.27)" href="Lulu_Website_Back17.png"/>
         </g>
     </a>
-  
+
+    <script>
+      var image = document.getElementById("Cat_2_Image");
+
+    image.onmouseover = function() {  image.setAttribute("href", "images/catOutline17.png");}
+    image.onmouseout = function() {  image.setAttribute("href", "Lulu_Website_Back17.png");}
+    </script>
+
+  <!-- cat 3-->
     <a href="catPage.html">
         <g id="Cat_3_Image" data-name="Cat 3 Image">
-          <image id="Cat_3_Image-2" data-name="Cat 3 Image" width="210" height="155" transform="translate(610.36 423.82) scale(.27)" xlink:href="Lulu_Website_Back18.png"/>
+          <image id="Cat_3_Image-2" data-name="Cat 3 Image" width="210" height="155" transform="translate(610.36 423.82) scale(.27)" href="Lulu_Website_Back18.png"/>
         </g>
     </a>
-  
+
+    <script>
+      var image = document.getElementById("Cat_3_Image");
+
+    image.onmouseover = function() {  image.setAttribute("href", "images/catOutline18.png");}
+    image.onmouseout = function() {  image.setAttribute("href", "Lulu_Website_Back18.png");}
+    </script>
+
+  <!-- cat 4 -->
     <a href="catPage.html">
         <g id="Cat_4_Image" data-name="Cat 4 Image">
-          <image id="Cat_4_Image-2" data-name="Cat 4 Image" width="1535" height="595" transform="translate(501.82 328.91) scale(.27)" xlink:href="Lulu_Website_Back19.png"/>
+          <image id="Cat_4_Image-2" data-name="Cat 4 Image" width="1535" height="595" transform="translate(501.82 328.91) scale(.27)" href="Lulu_Website_Back19.png"/>
         </g>
       </a>
+
+      <script>
+        var image = document.getElementById("Cat_4_Image");
+  
+      image.onmouseover = function() {  image.setAttribute("href", "images/catOutline19.png");}
+      image.onmouseout = function() {  image.setAttribute("href", "Lulu_Website_Back19.png");}
+      </script>
   
   </svg>
   </html>
@@ -104,7 +147,7 @@
   <div class="multi-button">
     
   </div>
-
+    
 
 </body>
 </html>
