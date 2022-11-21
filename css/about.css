@@ -1,0 +1,28 @@
+
+@font-face {
+    font-family: wordUp;
+    src: url("../font/crystalradiokit.ttf");
+  }
+  
+  .titleHeader{
+      display: block;
+      z-index: 3;
+    }
+    
+    h1{ 
+      font-family: wordUp;
+      color: purple;
+      font-size: 100px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .bodytext{
+        color:blue;
+        font-size: 50px;
+    }
+
+    h2{
+        color:blue;
+        font-size: 50px;
+    }
