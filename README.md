@@ -1,2 +1,0 @@
-# lulus
-my first website
