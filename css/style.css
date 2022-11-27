@@ -28,13 +28,14 @@ h1{
 }
 
 
-#rightArrow {
+.rightArrow {
   position: absolute;
   z-index: 1;
   right: 0;
-  top: 50vh;
+  top: 60vh;
   height: 20px;
-  width: 20px;
+  width: 70px;
+ 
 }
 
 .cls-1 {

@@ -1,0 +1,28 @@
+.leftArrow {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 60vh;
+    height: 20px;
+    width: 70px;
+   
+  }
+
+  @font-face {
+    font-family: wordUp;
+    src: url("../font/crystalradiokit.ttf");
+  }
+  
+  .titleHeader{
+    display: block;
+    z-index: 3;
+  }
+  
+  h1{ 
+    font-family: wordUp;
+    color: purple;
+    font-size: 150px;
+    margin: auto;
+    text-align: center;
+  }
+  

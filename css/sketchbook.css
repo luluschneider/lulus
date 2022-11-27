@@ -1,0 +1,13 @@
+.title {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    font-size: 80px;
+    text-align: center;
+    padding-top: calc(50vh - 70px);
+    font-family: sans-serif;
+  }
+  
+  .title > h1 {
+    height: 70px;
+  }
