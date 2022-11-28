@@ -1,0 +1,45 @@
+
+body {background-color: rgb(242, 225, 251);}
+
+
+
+@font-face {
+  font-family: wordUp;
+  src: url("../font/crystalradiokit.ttf");
+}
+
+.titleHeader{
+  display: block;
+  z-index: 3;
+}
+
+h1{ 
+  font-family: wordUp;
+  color: purple;
+  font-size: 80px;
+  margin: auto;
+  text-align: center;
+}
+
+
+
+
+
+.container {
+
+    display: flex;
+    align-items: left;
+    justify-content: left
+  }
+  img {
+    max-width: 100%
+  }
+  .image {
+    flex-basis: 40%
+  }
+  .text {
+    font-size: 25px;
+    align-items: center;
+    padding-left: 20px;
+    font-family: 'Lucida Console', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }

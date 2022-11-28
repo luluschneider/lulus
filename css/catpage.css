@@ -1,12 +1,14 @@
-.leftArrow {
-    position: absolute;
-    z-index: 1;
-    left: 0;
-    top: 60vh;
-    height: 20px;
-    width: 70px;
-   
+
+
+.column {
+    float: left;
+    width: 40%;
+    padding: 10px;
   }
+ 
+
+
+
 
   @font-face {
     font-family: wordUp;
@@ -15,14 +17,14 @@
   
   .titleHeader{
     display: block;
-    z-index: 11;
+    z-index: 3;
   }
   
   h1{ 
     font-family: wordUp;
     color: purple;
-    font-size: 150px;
-    margin-top: 200px;
+    font-size: 80px;
+    margin: auto;
     text-align: center;
   }
   
