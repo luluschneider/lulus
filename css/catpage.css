@@ -27,11 +27,23 @@
     font-size: 80px;
     margin: auto;
     text-align: center;
+
   }
   
 
   footer {
     text-align: center;
-    padding: 3px;
-    color: white;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    bottom: 0%;
+  position: relative;
+  }
+
+  .info {
+    font-family: monospace;
+    position: absolute;
+    line-height: 20px;
+    font-size: 14px;
+    left: 20px;
+    top: 20px;
   }

@@ -28,37 +28,24 @@ h1{
 }
 
 
-.rightArrow {
-  position: absolute;
-  z-index: 1;
-  right: 0;
-  top: 60vh;
-  height: 20px;
-  width: 70px;
- 
-}
 
 .cls-1 {
-    isolation: isolate;
-  }
+  mix-blend-mode: multiply;
+}
 
-  .cls-2 {
-    opacity: 0.56;
-  }
+.cls-2 {
+  mix-blend-mode: darken;
+  opacity: .55;
+}
 
-  .cls-2, .cls-4 {
-    mix-blend-mode: multiply;
-  }
+.cls-3 {
+  opacity: .97;
+}
 
-  .cls-3 {
-    opacity: 0.55;
-    mix-blend-mode: darken;
-  }
-
-  .cls-5 {
-    opacity: 0.97;
-  }
-
+.cls-4 {
+  isolation: isolate;
+}
+  
  #baseImage{
   width: 100vw;
  }
